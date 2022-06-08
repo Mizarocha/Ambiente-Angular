@@ -1,27 +1,61 @@
-# MyFirstProject
+# My First Project Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+O que é o angular ?
+
+Framework criado pelo google focado na criação de aplicativos de página única eficientes e sofisticados.
+
+<a href="https://angular.io/docs">Documento Oficial</a>
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O que é uma página SPA ?
 
-## Code scaffolding
+Um SPA é uma aplicação web que roda em uma única página.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Fonte: <a href="https://angular.io/docs">Artigo: O que é uma SPA: Single-Page Application</a>
 
-## Build
+## Objetivo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Aprender o que é o angular, para que serve e como construir uma aplicação inicial com angular e suas ferramentas.
 
-## Running unit tests
+## Instalação angular CLI.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install -g @angular/cli
 
-## Running end-to-end tests
+## Como inicializar a sua aplicação.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ng new my-first-project
+cd my-first-project
+ng serve
 
-## Further help
+## Como compilar sua aplicacao para publicacao.
+Execute ng build para construir o projeto. Os artefatos de construção serão armazenados no diretório dist/.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Executando testes de unidade
+
+Execute ng test para executar os testes de unidade via [Karma] (https://karma-runner.github.io).
+
+## Executando testes ponta a ponta (End-to-End)
+Execute ng e2e para executar os testes de ponta a ponta por meio de uma plataforma de sua escolha. Para usar este comando, você precisa primeiro adicionar um pacote que implemente recursos de teste de ponta a ponta(End-to-End).
+
+## Comandos úteis angular CLI
+Scaffold: ..........................            Usage:
+
+Componet =  ng g component my-new-component
+
+Directive = ng g directive my-new-directive
+
+Pipe =      ng g pipe my-new-pipe
+
+Service =   ng g service my-new-service
+
+Class =     ng g class my-new-class
+
+Guard =     ng g guardmy-new-guard
+
+interface = ng g interface my-new-interface
+
+Enum =      ng g enum my-new-enum
+
+Module =    ng g module my-module
+
